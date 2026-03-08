@@ -24,7 +24,7 @@ class Ball {
     move() {
         this.x += this.speedX;
         this.y += this.speedY;
-        
+
         // ColisiÃ³n con la parte superior e inferior
         if (this.y - this.radius <= 0 || this.y + this.radius >= canvas.height) {
             this.speedY = -this.speedY;
@@ -147,7 +147,7 @@ class Game {
         gameLoop();
     }
 }
-
+// Comentario por error
 // Crear instancia del juego y ejecutarlo
 const game = new Game();
 game.run();
